@@ -5,37 +5,64 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>WebStudio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
-        <header>
-            <a href="https://github.com/Konrad0987/goit-markup-hw-01/"
-                ><span>Web</span>Studio</a
+        <header class="header">
+            <a
+                class="menu-link"
+                href="https://github.com/Konrad0987/goit-markup-hw-01/"
+                ><span class="web">Web</span>Studio</a
             >
             <nav>
-                <ul>
-                    <li><a href="/agencja">Agencja</a></li>
-                    <li><a href="/portfolio">Portfolio</a></li>
-                    <li><a href="/kontakt">Kontakt</a></li>
+                <ul class="list">
+                    <li>
+                        <a class="navigation-link" href="/agencja">Agencja</a>
+                    </li>
+                    <li>
+                        <a class="navigation-link" href="/portfolio"
+                            >Portfolio</a
+                        >
+                    </li>
+                    <li>
+                        <a class="navigation-link" href="/kontakt">Kontakt</a>
+                    </li>
                 </ul>
             </nav>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="contact-link" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
                 </li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+
+                <li>
+                    <a class="contact-link" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </li>
             </ul>
         </header>
         <main>
-            <section>
-                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button type="button">Zamów usługe</button>
+            <section class="motto">
+                <h1 class="motto-text">
+                    EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+                </h1>
+                <button class="button" type="button">Zamów usługę</button>
             </section>
             <div>
-                <ul>
+                <ul class="list">
                     <li>
                         <article>
-                            <h3>LOREM IPSUM</h3>
-                            <p>
+                            <h3 class="our-strengths-name">LOREM IPSUM</h3>
+                            <p class="our-strengths-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -44,8 +71,8 @@
                     </li>
                     <li>
                         <article>
-                            <h3>LOREM IPSUM</h3>
-                            <p>
+                            <h3 class="our-strengths-name">LOREM IPSUM</h3>
+                            <p class="our-strengths-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -54,8 +81,8 @@
                     </li>
                     <li>
                         <article>
-                            <h3>LOREM IPSUM</h3>
-                            <p>
+                            <h3 class="our-strengths-name">LOREM IPSUM</h3>
+                            <p class="our-strengths-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -64,8 +91,8 @@
                     </li>
                     <li>
                         <article>
-                            <h3>LOREM IPSUM</h3>
-                            <p>
+                            <h3 class="our-strengths-name">LOREM IPSUM</h3>
+                            <p class="our-strengths-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -75,8 +102,8 @@
                 </ul>
             </div>
             <section>
-                <h2>Czym się zajmujemy</h2>
-                <ul>
+                <h2 class="our-job-team">Czym się zajmujemy</h2>
+                <ul class="list">
                     <li>
                         <img
                             src="images/klawiatura.jpg"
@@ -104,8 +131,8 @@
                 </ul>
             </section>
             <section>
-                <h2>Nasz zespół</h2>
-                <ul>
+                <h2 class="our-job-team">Nasz zespół</h2>
+                <ul class="list">
                     <li>
                         <figure>
                             <img
@@ -115,8 +142,8 @@
                                 height="260"
                             />
                             <figcaption>
-                                <h3>John Doe</h3>
-                                <span>Product Designer</span>
+                                <h3 class="our-name">John Doe</h3>
+                                <p class="our-job">Product Designer</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -129,8 +156,8 @@
                                 height="260"
                             />
                             <figcaption>
-                                <h3>John Doe</h3>
-                                <span>Frontend Developer</span>
+                                <h3 class="our-name">John Doe</h3>
+                                <p class="our-job">Frontend Developer</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -143,8 +170,8 @@
                                 height="260"
                             />
                             <figcaption>
-                                <h3>John Doe</h3>
-                                <span>Marketing</span>
+                                <h3 class="our-name">John Doe</h3>
+                                <p class="our-job">Marketing</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -157,30 +184,40 @@
                                 height="260"
                             />
                             <figcaption>
-                                <h3>John Doe</h3>
-                                <span>UI Designer</span>
+                                <h3 class="our-name">John Doe</h3>
+                                <p class="our-job">UI Designer</p>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
             </section>
         </main>
-        <footer>
-            <a href="https://github.com/Konrad0987/goit-markup-hw-01/"
-                ><span>Web</span>Studio</a
+        <footer class="footer list">
+            <a
+                class="link-logo-bottom"
+                href="https://github.com/Konrad0987/goit-markup-hw-01/"
             >
+                <span class="web">Web</span>Studio</a
+            >
+
             <address>
-                <ul>
+                <ul class="list">
                     <li>
-                        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+                        <p class="footer-adres">
+                            m. Warszawa, Aleje Jerozolimskie 21
+                        </p>
                     </li>
                     <li>
-                        <a href="mailto:info@devstudio.com"
-                            >info@devstudio.com</a
+                        <a
+                            class="footer-contact"
+                            href="mailto:info@devstudio.com"
+                            >info@example.com</a
                         >
                     </li>
                     <li>
-                        <a href="tel:+48111111111">+48 111 111 111</a>
+                        <a class="footer-contact" href="tel:+48111111111"
+                            >+4811111111</a
+                        >
                     </li>
                 </ul>
             </address>
