@@ -1,21 +1,18 @@
 :root {
-    --brand-color-blue: #2196f3;
-    --brand-color-background: #2f303a;
-    --brand-color-black: #000;
-    --brand-color-grey: #757575;
-    --brand-color-white: #ffffff;
-    --brand-color-text-grey: #757575;
-    --brand-color-portfolio-button: #f5f4fa;
+    --brand-color-first: #2196f3;
+    --brand-color-second: #000;
+    --brand-color-third: #757575;
+    --brand-color-fourth: #fff;
+    --brand-color-fifth: #2f303a;
+    --brand-color-sixth: #f5f4fa;
 }
 
 body {
-    font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
-
-    color: var(--brand-color-black);
+    color: var(--brand-color-second);
 }
 .header {
-    background-color: var(--brand-color-white);
+    background-color: var(--brand-color-fourth);
     text-decoration: none;
     color: --brand-color-black;
 }
@@ -29,7 +26,7 @@ body {
     letter-spacing: 0.03em;
 }
 .web {
-    color: var(--brand-color-blue);
+    color: var(--brand-color-first);
     font-family: Raleway;
 
     font-size: 26px;
@@ -42,7 +39,7 @@ body {
 }
 
 .navigation-link {
-    color: var(--brand-color-black);
+    color: var(--brand-color-second);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -51,10 +48,10 @@ body {
 }
 .navigation-link:hover,
 .navigation-link:focus {
-    color: var(--brand-color-blue);
+    color: var(--brand-color-first);
 }
 .contact-link {
-    color: var(--brand-color-text-grey);
+    color: var(--brand-color-third);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -63,13 +60,13 @@ body {
 }
 .contact-link:hover,
 .contact-link:focus {
-    color: var(--brand-color-blue);
+    color: var(--brand-color-first);
 }
 .motto {
-    background-color: var(--brand-color-background);
+    background-color: var(--brand-color-fifth);
 }
 .motto-text {
-    color: var(--brand-color-white);
+    color: var(--brand-color-fourth);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
@@ -78,15 +75,19 @@ body {
 }
 
 .button {
-    color: var(--brand-color-white);
-    background-color: var(--brand-color-blue);
+    color: var(--brand-color-fourth);
+    background-color: var(--brand-color-first);
     font-weight: 700;
     font-size: 16px;
     cursor: pointer;
     line-height: 1.9;
 }
+.button:hover,
+.button:focus {
+    background-color: var(--brand-color-third);
+}
 .contact-address {
-    color: var(--brand-color-white);
+    color: var(--brand-color-fourth);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -94,22 +95,22 @@ body {
 }
 .contact-link-button {
     /* color: rgba(255, 255, 255, 0.6); */
-    color: var(--brand-color-white);
+    color: var(--brand-color-fourth);
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
 .contact-link-button:hover {
-    color: var(--brand-color-blue);
+    color: var(--brand-color-first);
 }
 
 .filter {
     list-style-type: none;
 }
 .filter-name {
-    color: var(--brand-color-black);
-    background-color: var(--brand-color-grey);
+    color: var(--brand-color-second);
+    background-color: var(--brand-color-third);
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
@@ -119,28 +120,28 @@ body {
 }
 .filter-name:hover,
 .filter-name:focus {
-    color: var(--brand-color-white);
-    background-color: var(--brand-color-blue);
+    color: var(--brand-color-fourth);
+    background-color: var(--brand-color-first);
 }
 .list {
     list-style-type: none;
     text-decoration: none;
 }
 .our-strengths-name {
-    color: var(--brand-color-black);
+    color: var(--brand-color-second);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
 .our-strengths-text {
-    color: var(--brand-color-text-grey);
+    color: var(--brand-color-third);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .our-job-team {
-    color: var(--brand-color-black);
+    color: var(--brand-color-second);
     font-weight: 900;
     font-size: 36px;
     line-height: 1.17;
@@ -148,7 +149,7 @@ body {
     text-align: center;
 }
 .our-name {
-    color: var(--brand-color-black);
+    color: var(--brand-color-second);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -156,18 +157,18 @@ body {
     letter-spacing: 0.03em;
 }
 .our-job {
-    color: var(--brand-color-text-grey);
+    color: var(--brand-color-third);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .footer {
-    background-color: var(--brand-color-background);
+    background-color: var(--brand-color-fifth);
     letter-spacing: 0.03em;
 }
 .link-logo-bottom {
-    color: var(--brand-color-white);
+    color: var(--brand-color-fourth);
     font-family: Raleway;
     font-size: 26px;
     line-height: 1.2;
@@ -176,7 +177,7 @@ body {
 }
 
 .footer-adres {
-    color: var(--brand-color-white);
+    color: var(--brand-color-fourth);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -190,8 +191,8 @@ body {
     text-decoration: none;
 }
 .button-portfolio {
-    color: var(--brand-color-black);
-    background-color: var(--brand-color-portfolio-button);
+    color: var(--brand-color-second);
+    background-color: var(--brand-color-sixth);
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
@@ -203,18 +204,18 @@ body {
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
-    background-color: var(--brand-color-blue);
-    color: var(--brand-color-white);
+    background-color: var(--brand-color-first);
+    color: var(--brand-color-fourth);
 }
 .portfolio-item {
-    color: var(--brand-color-black);
+    color: var(--brand-color-second);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 .portfolio-type {
-    color: var(--brand-color-text-grey);
+    color: var(--brand-color-third);
 
     font-size: 16px;
     line-height: 1.9;
