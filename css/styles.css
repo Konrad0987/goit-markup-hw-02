@@ -104,7 +104,8 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
 }
-.contact-link-button:hover {
+.contact-link-button:hover,
+.contact-link-button:focus {
     color: var(--brand-color-first);
 }
 
